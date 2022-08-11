@@ -2,14 +2,53 @@
   background: transparent;
   height: 100%;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
+}
+
+.text {
+  /* width: 100%; */
+  padding-left: 25%;
 }
 
 .title {
   color: var(--black);
-  font-size: 52px;
+  font-size: 48px;
   font-weight: 600;
 
-  margin: 10px 0px;
-  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+hr {
+  width: 50%;
+  text-align: left;
+  margin-left: 0;
+  margin-bottom: 40px;
+
+  height: 3px;
+  border-width: 0;
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.skill-list {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.image-col {
+  width: 100%;
+}
+
+.image {
+  padding-top: 25px;
+  padding: 25px 20% 0 20%;
+}
+
+.collage {
+  object-fit: cover;
+  width: 380px;
+
+  border-radius: 25px;
 }
