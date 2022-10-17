@@ -10,7 +10,7 @@
 }
 
 .color-block {
-  background-color: var(--black);
+  background-color: var(--dusty-pink);
   grid-column: 1 / 4;
 }
 
@@ -41,14 +41,13 @@
   font-size: 52px;
   font-weight: 700;
 
-  margin-top: calc(20vh + 15px);
-  margin-bottom: 36px;
+  margin-top: calc(25vh + 15px);
+  margin-bottom: 5px;
 }
 
 .paragraph {
-  color: var(--black);
-  font-size: 36px;
-  font-weight: 600;
+  color: var(--brown);
+  font-size: 20px;
 
   margin-top: 0px;
   margin-bottom: 5px;

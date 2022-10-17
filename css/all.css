@@ -9,6 +9,10 @@
   --dark-blue: rgb(13, 65, 122);
   --dark-grey-blue: rgb(73, 88, 125);
   --black: rgb(8, 9, 12);
+
+
+  --brown: rgb(176, 149, 116);
+  --dusty-pink: rgb(240, 230, 239);
 }
 
 body {
@@ -75,14 +79,14 @@ nav a {
 }
 
 nav a:hover {
-  color: var(--periwinkle);
+  color: var(--dusty-pink);
 }
 
 nav a::before {
   content: '';
   display: block;
   height: 5px;
-  background-color: var(--periwinkle);
+  background-color: var(--dusty-pink);
 
   position: absolute;
   top: 0;
