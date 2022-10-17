@@ -8,15 +8,19 @@
 }
 
 .project {
-  display: flex;
-  flex-direction: row;
-
   padding: 0 20px 0;
   margin: 40px 0px;
 }
 
+.shadow {
+  display: flex;
+  flex-direction: row;
+
+  box-shadow: 0px 5px 10px rgb(131, 131, 131);
+}
+
 .content {
-  background-color: var(--periwinkle);
+  /* background-color: var(--periwinkle); */
   display: flex;
   flex-direction: column;
   width: 60%;
