@@ -108,5 +108,5 @@ hr {
 
 .link {
   color: var(--white);
-  text-decoration: none;
+  text-decoration: underline;
 }

@@ -1,0 +1,82 @@
+main {
+  padding-top: 80px;
+}
+
+.title {
+  color: var(--black);
+  font-size: 52px;
+  font-weight: 600;
+
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.projects {
+  background: transparent;
+  height: 100%;
+  width: 70%;
+  margin: auto auto;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.project {
+  margin: 5px 5px 5px 5px;
+  padding: auto;
+  height: 350px;
+  width: 493.6px;
+}
+
+.proj-info1 {
+  height: inherit;
+  width: inherit;
+  background-color: var(--periwinkle);
+  display: inline-block;
+}
+
+.proj-info2 {
+  height: inherit;
+  width: inherit;
+  background-color: var(--light-blue);
+  display: inline-block;
+}
+
+.proj-info3 {
+  height: inherit;
+  width: inherit;
+  background-color: var(--purple);
+  display: inline-block;
+}
+
+.proj-info4 {
+  height: inherit;
+  width: inherit;
+  background-color: var(--pink);
+  display: inline-block;
+}
+
+.proj-title {
+  /* top | right | bottom | left */
+  margin: 85px 0px 5px 15px;
+
+  color: var(--white);
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.proj-desc {
+  /* top | right | bottom | left */
+  margin: 0px 0px 20px 15px;
+
+  color: var(--white);
+  font-size: 16px;
+}
+
+.proj-link {
+  margin-bottom: 10px;
+  margin-left: 15px;
+
+  color: var(--white);
+  font-size: 16px;
+  text-decoration: none;
+}
